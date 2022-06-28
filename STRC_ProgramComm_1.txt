@@ -1,0 +1,46 @@
+Dear <cfoutput>#Lname#</cfoutput>,
+
+We are excited to hear that you will have the opportunity to present <cfoutput>#ProgramTitle#</cfoutput> at your upcoming speaker program on <cfoutput>#ProgramDate#</cfoutput>.
+
+<cfoutput>#Paragraph2#</cfoutput>
+
+<cfif NOT ArrayIsEmpty(Replays)>
+PRESENTATION VIDEO REPLAYS
+<cfloop array="#Replays#" item="replayItem"><cfoutput>- #replayItem#</cfoutput>
+</cfloop>
+</cfif>
+
+<cfif Notes eq "">
+MATERIALS
+Evenity® FAQ and Approved Language
+</cfif>
+
+
+URL AND LOGIN
+Link: https://www.cpgworks.com/SpeakerResourceCenter/
+Original User Name: <cfoutput>#usrname#</cfoutput>
+Original Password: <cfoutput>#pword#</cfoutput>
+
+Quick-Guide on accessing resources
+Step 1: From Home Page, navigate to Medication Presentation Resources
+Step 2: Click on Slide Deck Training
+Step 3: Scroll down to select presentation you will be giving and relevant video replays
+
+You will also find the approved Frequently Asked Questions and approved language to prepare for your program. This document can be found by:
+Step 1: From Home Page, navigate to Medication Presentation Resources
+Step 2: Click on FAQ and Approved Language
+Step 3: Scroll down and click FAQ (also available to download)
+
+Please note that you will continue to download the presentations for your speaker programs from the Amgen Speaker Connection (the direct link is provided at the bottom of the deck)
+
+If you have any questions or need any assistance, I am available via return email at BoneHealthSpeakers@communicationpartners.com or by phone at (212) 499-3262.
+
+I’m sure your presentation will be a success and if you have a chance, I look forward to hearing how it went and that these resources were useful to you as you prepared for your presentation.
+
+With kind regards,
+
+Rachael A. Dworsky
+Bone Health Speaker Bureau
+Impact Communication Partners
+BoneHealthSpeakers@communicationpartners.com
+(212) 499-3262
